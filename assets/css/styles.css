@@ -1,0 +1,53 @@
+:root {
+    --zerom: 0px 0px 0px 0px;
+    --boxm: 15px;
+    --boxp: 50px;
+}
+
+* {
+    margin: var(--zerom);
+}
+
+header {
+    margin: var(--zerom);
+    padding: var(--boxp);
+    background-color: darkolivegreen;
+    color: honeydew;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    margin: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
+
+.gameBox {
+    padding: var(--boxp);
+    margin: var(--boxm);
+    display: block;
+    float: left;
+    border: 2px solid black;
+}
+
+.scoreboard {
+    padding: var(--boxp);
+    margin: var(--boxm);
+    display: block;
+    float: right;
+    border: 2px solid black;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: var(--zerom);
+    padding: var(--boxp);
+    background-color: rgb(207, 245, 207);
+}
